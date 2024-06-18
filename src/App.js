@@ -1,6 +1,7 @@
 import 'bootstrap/dist/js/bootstrap.js';
-import 'bootswatch/dist/darkly/bootstrap.min.css'
+import 'bootswatch/dist/slate/bootstrap.min.css'
 import Header from './components/Header';
+import WordleMainComponent from './components/WordleMainComponent';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Header/>
       <br/>
       <div className='container'>
-        {/* Add component here */}
+        <WordleMainComponent/>
       </div>
     </div>
   );
